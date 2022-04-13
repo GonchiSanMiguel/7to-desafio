@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>El Taller Cerveceria</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<nav>
+		<a href="../index.html">
+			<img src="../img/logotaller.png" alt="Logo de El Taller Cerveceria" width="125" height="125">
+		</a>
+		<ul>
+			<li><a href="nosotros.html">Nosotros</a></li>
+			<li><a href="promociones.html">Promociones</a></li>
+			<li><a href="carta.html">Carta</a></li>
+			<li><a href="trabaja.html">Trabaja</a></li>
+			<li><a href="../index.html#ubicacion">Ubicación</a></li>
+			<li><a href="../index.html#contacto">Contacto</a></li>
+		</ul>
+	</nav>
+	<header>
+		<img src="../img/empleada.jpeg" alt="Empleo El Taller Cerveceria" width="800" height="500">
+	</header>
+	<!-- Inicio Main -->
+	<main>
+		<section>
+			<div>
+			<article class="textWhite">
+				<h2>¡Trabaja con nosotros!</h2>
+				<p>Si te interesa alguno de nuestros cargos vacantes, empieza por postularte aquí y adjunta tu curriculum vitae. Guardaremos tu perfil para las búsquedas que vayan surgiendo.</p>
+				<p>IMPORTANTE: No se tendrán en cuenta formularios que no tengan adjuntos CV con referencias comprobables.</p>
+			</article>
+			</div>
+			<article>
+			<h1>Postularse ahora</h1>	
+			<!-- Inicia formulario -->
+			<form action="envio1.php" method="post" id="trabaja">
+				<fieldset class="textWhite">
+					<label for="Nombre">Nombre y Apellido</label>
+					<input type="text" placeholder="Nombre y Apellido" name="Nombre" id="Nombre">
+					<br>
+					<br>
+					<label for="Email">Email</label>
+					<input type="Email" placeholder="email@email.com" name="Email" id="Email">
+					<br>
+					<br>
+					<label for="Sexo">Sexo</label>
+					<select name="Sexo">
+						<option value=""></option>
+						<option value="Femenino">Femenino</option>
+						<option value="Masculino">Masculino</option>
+					</select>
+					<br>
+					<br>
+					<label for="Puesto">Puesto/s a postularse:</label>
+					<br>
+					<div>Cocinero/a</div><input type="checkbox">
+					<br>
+					<div>Bachero/a</div><input type="checkbox">
+					<br>
+					<div>Camarero/a</div><input type="checkbox">
+					<br>
+					<br>
+					<label for="Mensaje">Mensaje</label>
+					<br>
+					<textarea name="Mensaje" id="Mensaje" cols="50" rows="10" placeholder="Escribe aquí"></textarea>
+					<br>
+					<input type="button" value="Adjunta tu CV">
+					<br>
+					<br>
+					<input type="submit" value="Enviar">
+					<input type="reset" value="Limpiar formulario">
+
+				</fieldset>
+
+			</form>
+			<!-- Fin formulario -->
+			</article>
+		</section>
+	</main>
+	<!-- Cierra Main -->
+	<br>
+	<footer class="textCenter">
+		<h3 class="textWhite">Conectate con nosotros</h3>
+		<div>
+			<a href="https://www.instagram.com/eltaller.cerveceria/?hl=es" target="_blank">
+				<img src="../img/logoinstagram.png" alt=""	width="100" height="100">
+			</a>
+			<a href="https://api.whatsapp.com/send/?phone=5491136420027&text&app_absent=0" target="_blank">
+				<img src="../img/logowhatsapp.png" alt="" width="100" height="100">
+			</a>
+		</div>
+		<h4 class="textWhite">Todos los derechos reservados El Taller Cervecería</h4>
+		<h4 class="textWhite">Web Site creado por GSM</h4>
+	</footer>
+</body>
+</html>

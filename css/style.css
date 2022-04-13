@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap");
+#botonera {
+  background-color: #CA9E64;
+  font-size: 1.25rem; }
+  #botonera ul {
+    padding: 5px; }
+    #botonera ul ul li a {
+      color: black; }
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 15s; }
+
+.navbar-toggler-icon {
+  background-image: escape-svg navbar-light-toggler-icon-bg; }
+
+.nav-link {
+  color: black; }
+  .nav-link:hover {
+    color: white; }
+
+body {
+  background-color: black; }
+  body section article {
+    color: white; }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white; }
+  footer div a {
+    text-decoration: none;
+    margin: 40px;
+    padding: 5px; }
+  footer h3 {
+    font-size: 1.5rem;
+    margin: 30px auto; }
+  footer h4 {
+    font-size: 1rem;
+    margin: 50px 10px auto; }
+  footer h5 {
+    font-size: 1rem; }

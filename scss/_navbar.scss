@@ -1,0 +1,32 @@
+#botonera{
+	background-color: $navColor;
+	font-size: $textMd;
+	ul{
+		padding: 5px;
+		ul li a{
+			color: $mainColor;
+
+		}
+	}
+}	
+
+.navbar-toggler{
+	padding: 0.25rem 0.75rem;
+	font-size: $textMd;
+	line-height: 1;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 0.25rem;
+	transition: box-shadow 15s;
+}
+
+.navbar-toggler-icon{
+	background-image: escape-svg (navbar-light-toggler-icon-bg);
+}
+
+.nav-link{
+	color: $mainColor;
+	&:hover{
+		color: $secondColor;
+	} 
+}
