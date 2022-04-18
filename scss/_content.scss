@@ -6,3 +6,53 @@ body{
 		}
 	}
 }
+
+h1{
+	@include text(2rem,goldenrod);
+}
+
+h2{
+	@include text(1.7rem, white);
+}
+
+h3{
+	@include text(1.5rem, whitesmoke);
+}
+
+main{
+	section{
+		div{
+			margin-top: 20px;
+			padding: 10px 20px 10px 20px;
+			p{
+				@include text(1.4rem,whitesmoke);
+				padding: auto;
+				font-family: Quicksand;
+			}
+		}
+	}
+}
+
+#carta{
+	content{
+		padding:auto;
+
+		h1{
+			text-align: center;
+			margin-top: 20px;
+		}
+		div{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+	}
+}
+
+.bg-promo1{
+	background-color: map-get($fondoPromos, fondo2);
+}
+
+.bg-promo2{
+	background-color: map-get($fondoPromos, fondo3);
+}

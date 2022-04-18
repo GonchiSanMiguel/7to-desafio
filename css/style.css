@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 #botonera {
   background-color: #CA9E64;
   font-size: 1.25rem; }
@@ -29,6 +30,43 @@ body {
   body section article {
     color: white; }
 
+h1 {
+  font-size: 2rem;
+  color: goldenrod; }
+
+h2 {
+  font-size: 1.7rem;
+  color: white; }
+
+h3 {
+  font-size: 1.5rem;
+  color: whitesmoke; }
+
+main section div {
+  margin-top: 20px;
+  padding: 10px 20px 10px 20px; }
+  main section div p {
+    font-size: 1.4rem;
+    color: whitesmoke;
+    padding: auto;
+    font-family: Quicksand; }
+
+#carta content {
+  padding: auto; }
+  #carta content h1 {
+    text-align: center;
+    margin-top: 20px; }
+  #carta content div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+
+.bg-promo1 {
+  background-color: #51400C; }
+
+.bg-promo2 {
+  background-color: #584021; }
+
 footer {
   display: flex;
   flex-direction: column;
@@ -42,8 +80,8 @@ footer {
   footer h3 {
     font-size: 1.5rem;
     margin: 30px auto; }
-  footer h4 {
+  footer h4, footer h5 {
     font-size: 1rem;
     margin: 50px 10px auto; }
   footer h5 {
-    font-size: 1rem; }
+    margin-bottom: 10px; }
